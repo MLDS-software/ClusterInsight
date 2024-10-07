@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: cluster_insight
+    build:
+      context: .
+    ports:
+      - "8866:8866"
+      - "8888:8888"
